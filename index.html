@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payoo</title>
+
+    <!--tailwind and daisy UI CDN-->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5.0.0-beta.9/daisyui.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body>
+    <main>
+        <div class="hero bg-base-200 min-h-screen">
+            <div class="hero-content flex-col lg:flex-row-reverse">
+       
+              <div class="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
+                <div class="card-body">
+                  <fieldset class="fieldset">
+                    <label class="fieldset-label">ID</label>
+                    <input id="number" type="number" class="input" placeholder="ID" required/>
+                    <label class="fieldset-label">Password</label>
+                    <input id="pin" type="password" class="input" placeholder="Password" required/>
+                    <div><a class="link link-hover">Forgot password?</a></div>
+                    <button id="btn-login" class="btn btn-neutral mt-4">Login</button>
+                  </fieldset>
+                </div>
+              </div>
+            </div>
+          </div>
+    </main>
+    <script src="script.js"></script>
+
+</body>
+</html>
