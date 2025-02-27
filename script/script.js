@@ -17,5 +17,3 @@ document.getElementById('btn-login').addEventListener('click', function(){
     }  
 })
 
-
-// Home Function
